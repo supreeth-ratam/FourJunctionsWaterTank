@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    border: 1px solid black;
+    height: 20px;
+    width: 70px;
+}
+
+.empty {
+    background-color: white;
+}
+
+.solid {
+    background-color: yellow;
+}
+
+.water {
+    background-color: #00b0f0;
+}
